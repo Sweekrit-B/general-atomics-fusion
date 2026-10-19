@@ -1,0 +1,31 @@
+# Core DS
+numpy
+scipy
+pandas
+polars
+pyarrow
+statsmodels
+sympy
+networkx
+tqdm
+# ML
+scikit-learn
+xgboost
+lightgbm
+catboost
+imbalanced-learn
+optuna
+shap
+# Deep learning
+torch
+torchvision
+torch-geometric
+# Visualization
+matplotlib
+seaborn
+plotly
+altair
+# Notebooks
+jupyterlab
+ipykernel
+ipywidgets
