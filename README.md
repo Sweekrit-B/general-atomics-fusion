@@ -10,6 +10,7 @@ finds which inputs vary, plots how the fluxes respond, checks data quality and e
 |---|---|
 | `task1.ipynb` | The analysis notebook. It loads the data, finds which inputs vary, plots the fluxes, runs the quality checks and writes the CSV. Run it top to bottom. |
 | `sat3_tglf_table.csv` | The table the notebook exports: one row per case (43 rows), readable column names (inputs that vary, then the six fluxes), and a `quality_flag` column (`ok`, or the reasons the case deserves a second look). Fluxes are in gyro-Bohm units. |
+| `sat3_experiments.csv` | One row per experiment letter (26 rows): which ions were run, which parameter(s) the experiment changed from the baseline, and the baseline and new values. Built from the data in the last notebook cell. |
 | `requirements.txt` | Python packages (the notebook itself needs numpy, pandas, matplotlib, seaborn and Jupyter). |
 | `.gitignore` | Keeps the raw dataset out of git. |
 | `README.md` | This file. |
