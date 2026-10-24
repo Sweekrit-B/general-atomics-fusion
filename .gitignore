@@ -1,1 +1,4 @@
 SAT3_dataset/
+scan_db/
+Task*.md
+__pycache__/
