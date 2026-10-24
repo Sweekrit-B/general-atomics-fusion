@@ -46,7 +46,7 @@ The training notebook works the same way: open `scandb_tglf_prediction_training.
 |---|---|
 | 0 and 1 | Imports, loads `data/scan_db_table.csv`, and plots a histogram of every varying input and flux (Figure 1). |
 | 2 | Splits the rows 70/15/15 into train, validation and test sets. Encodes the categorical columns, drops invalid rows (a heat flux of 0 or below), drops highly correlated and low-variance features, and standardizes the continuous features. Every statistic comes from the training set only. Also builds the log(energy flux) targets. |
-| 3 | Defines the three models and the cross-validated grid search. Tunes each model on the raw and on the log targets (Table 1), fits a ridge baseline, times the models (Table 2), plots learning curves (Figure 2), then refits each tuned model on train + validation and scores it on the test set (Table 3). |
+| 3 | Defines the three models and the cross-validated grid search. Tunes each model on the raw and on the log targets (Table 1), fits a ridge baseline (shown next to the tuned models in the later tables and figures), times the models (Table 2), plots learning curves (Figure 2), then refits each tuned model on train + validation and scores it on the test set (Table 3). |
 | 4 | Scores the same models on SAT3. SAT3 goes through the same preprocessing with nothing refit (Table 4, Figures 3 and 4). |
 | 5 | Feature importance of the random forest and xgboost models (Table 5, Figure 5). |
 
