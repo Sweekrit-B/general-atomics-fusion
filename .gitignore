@@ -1,6 +1,10 @@
 SAT3_dataset/
 scan_db/
-Task*.md
+tasks/*
 __pycache__/
 scan_db_outside/
 data_d3d/
+original_data/*
+d3d_profile/*
+data/original_data/*
+*.tar.gz
